@@ -10,6 +10,12 @@ My background spans IT infrastructure, systems administration, network defense, 
 
 ---
 
+## 🔎 Start here
+
+If you are reviewing this portfolio for a security, infrastructure, or Python role, start with [**LogLens**](https://github.com/REV3R5ED/LogLens): a deterministic defensive log-analysis CLI with structured parsing, explainable anomaly detection, reproducible JSON/CSV reporting, tests, CI, security documentation, and an end-to-end portfolio demo.
+
+The four projects below form a complementary defensive toolkit rather than unrelated demos: **LogLens** analyzes logs, **SentinelKit** supports IOC and authentication triage, **NetScope** provides bounded network diagnostics, and **AutoOPS** handles safe operational checks and automation.
+
 ## 🚀 Featured projects
 
 | Project | Focus | Highlights |
@@ -20,6 +26,13 @@ My background spans IT infrastructure, systems administration, network defense, 
 | [**SentinelKit**](https://github.com/REV3R5ED/SentinelKit) | Blue Team and SOC utilities | IOC extraction, IP inspection, file hashing and authentication-log triage |
 
 Each project is designed around authorized defensive use and includes automated tests, CI workflows, structured output, documentation, and reproducible examples.
+
+## 🧭 Portfolio map
+
+- **SOC / incident triage:** start with [LogLens](https://github.com/REV3R5ED/LogLens), then use [SentinelKit](https://github.com/REV3R5ED/SentinelKit) for IOC and authentication-log inspection.
+- **Network troubleshooting:** use [NetScope](https://github.com/REV3R5ED/NetScope) for local visibility, DNS, bounded TCP checks, and route diagnostics.
+- **IT operations / automation:** use [AutoOPS](https://github.com/REV3R5ED/AutoOPS) for read-only health checks, artifact validation, dry-run-safe workflows, and audit-friendly output.
+- **Technical review:** each core repository includes tests, CI, defensive scope documentation, and reviewer-oriented or reproducible examples so behavior can be verified rather than taken on trust.
 
 ## 🛡️ Security and infrastructure focus
 
