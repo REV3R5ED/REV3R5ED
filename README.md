@@ -4,6 +4,8 @@
 
 📍 North Vancouver, British Columbia, Canada
 
+[![LogLens CI](https://img.shields.io/github/actions/workflow/status/REV3R5ED/LogLens/ci.yml?branch=main&label=LogLens)](https://github.com/REV3R5ED/LogLens/actions) [![NetScope CI](https://img.shields.io/github/actions/workflow/status/REV3R5ED/NetScope/ci.yml?branch=main&label=NetScope)](https://github.com/REV3R5ED/NetScope/actions) [![AutoOPS CI](https://img.shields.io/github/actions/workflow/status/REV3R5ED/AutoOPS/ci.yml?branch=main&label=AutoOPS)](https://github.com/REV3R5ED/AutoOPS/actions) [![SentinelKit CI](https://img.shields.io/github/actions/workflow/status/REV3R5ED/SentinelKit/ci.yml?branch=main&label=SentinelKit)](https://github.com/REV3R5ED/SentinelKit/actions) [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org) [![License: MIT](https://img.shields.io/badge/license-MIT-green)](https://github.com/REV3R5ED/LogLens/blob/main/LICENSE)
+
 I build practical defensive-security and IT-automation tools with an emphasis on **clear documentation, explainable results, safe defaults, and automated testing**.
 
 My background spans IT infrastructure, systems administration, network defense, cybersecurity analysis, cloud fundamentals, and technical training. My current portfolio turns that experience into reproducible Python tools for Blue Team, SOC, networking, and IT operations workflows.
@@ -48,31 +50,20 @@ Each project is designed around authorized defensive use and includes automated 
 
 My digital credentials are publicly verifiable through my [**Credly profile**](https://www.credly.com/users/sheini).
 
-### Cybersecurity
+### Headline certifications
 
-- [**IBM Cybersecurity Analyst Professional Certificate**](https://www.credly.com/badges/3db60b13-a37b-4dda-90e8-5e563b1049f4) — SIEM, incident response, digital forensics, threat intelligence, network defense and hands-on labs
-- **Cisco Junior Cybersecurity Analyst Career Path**
-- **Cisco Cyber Threat Management**
-- **Cisco Network Defense**
-- **Cisco Endpoint Security**
-- **IBM Security Analyst Fundamentals Specialization**
-- **IBM Cybersecurity IT Fundamentals Specialization**
+- [**Junior Cybersecurity Analyst Career Path**](https://www.credly.com/users/sheini) — Cisco · issued May 13, 2022
+- [**Cybersecurity Analyst Professional Certificate**](https://www.credly.com/users/sheini) — IBM · issued Jan 26, 2023
+- [**MCSA: Windows Server 2012**](https://www.credly.com/users/sheini) — Microsoft · issued Dec 2014
+- [**Microsoft Certified Trainer**](https://www.credly.com/users/sheini) — Microsoft · 2021–2022 and 2022–2023
 
-### Infrastructure, cloud and DevOps
+### Cisco supporting badges
 
-- **Linux and Private Cloud Administration on IBM Power Systems Specialization**
-- **DevOps Essentials**
-- **IBM Containers & Kubernetes Essentials**
-- **IBM Cloud Essentials**
-- **Networking Essentials — Cisco**
-- **MCSA: Windows Server 2012** — Microsoft legacy credential
+[Network Defense](https://www.credly.com/users/sheini) · [Endpoint Security](https://www.credly.com/users/sheini) · [Cyber Threat Management](https://www.credly.com/users/sheini) · [Networking Essentials](https://www.credly.com/users/sheini) · [Introduction to Cybersecurity](https://www.credly.com/users/sheini) — all issued Apr–May 2022.
 
-### AI and technical leadership
+### IBM supporting specializations
 
-- **IBM AI Foundations for Business Specialization**
-- **IBM AI Ladder: A Framework for Deploying AI in the Enterprise**
-- **Microsoft Certified Trainer 2022–2023**
-- **Enterprise Design Thinking Co-Creator — IBM**
+[Security Analyst Fundamentals Specialization](https://www.credly.com/users/sheini) · [Cybersecurity IT Fundamentals Specialization](https://www.credly.com/users/sheini) — issued Oct 2021.
 
 ## 🛠️ Core technologies
 
