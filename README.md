@@ -16,21 +16,23 @@ My background spans IT infrastructure, systems administration, network defense, 
 
 If you are reviewing this portfolio for a security, infrastructure, or Python role, start with [**LogLens**](https://github.com/REV3R5ED/LogLens): a deterministic defensive log-analysis CLI with structured parsing, explainable anomaly detection, reproducible JSON/CSV reporting, tests, CI, security documentation, and an end-to-end portfolio demo.
 
-The four projects below form a complementary defensive toolkit rather than unrelated demos: **LogLens** analyzes logs, **SentinelKit** supports IOC and authentication triage, **NetScope** provides bounded network diagnostics, and **AutoOPS** handles safe operational checks and automation.
+The five projects below form a complementary defensive toolkit rather than unrelated demos: **LogLens** analyzes logs, **SentinelKit** supports IOC and authentication triage, **NetScope** provides bounded network diagnostics, **AutoOPS** handles safe operational checks and automation, and **AegisForge** is the commercial DFIR platform unifying them into cases, timelines, and reports.
 
 ## 🚀 Featured projects
 
 | Project | Focus | Highlights |
 |---|---|---|
+| [**AegisForge**](https://github.com/REV3R5ED/AegisForge) | DFIR platform (commercial, 1-week free trial) | Modular incident-response platform: network discovery, forensics, log analysis, PCAP, threat intel, correlation, case management |
 | [**LogLens**](https://github.com/REV3R5ED/LogLens) | Defensive log analysis | JSON, text, RFC 5424 and OpenTelemetry parsing; explainable anomaly rules; JSON/CSV reporting |
 | [**NetScope**](https://github.com/REV3R5ED/NetScope) | Network visibility and diagnostics | IPv4/IPv6 inspection, DNS, bounded TCP and route diagnostics, automation-friendly health gates |
 | [**AutoOPS**](https://github.com/REV3R5ED/AutoOPS) | Safe IT operations automation | Cross-platform health checks, artifact validation, dry-run safety, workflows and structured audit logging |
 | [**SentinelKit**](https://github.com/REV3R5ED/SentinelKit) | Blue Team and SOC utilities | IOC extraction, IP inspection, file hashing and authentication-log triage |
 
-Each project is designed around authorized defensive use and includes automated tests, CI workflows, structured output, documentation, and reproducible examples.
+Each project is designed around authorized defensive use and includes automated tests, CI workflows, structured output, documentation, and reproducible examples. AegisForge is commercial software with a 1-week free trial; the other four are open source under MIT.
 
 ## 🧭 Portfolio map
 
+- **DFIR platform:** [AegisForge](https://github.com/REV3R5ED/AegisForge) unifies network, forensic, log, and threat-intel evidence into cases, timelines, and reports (commercial, 1-week free trial).
 - **SOC / incident triage:** start with [LogLens](https://github.com/REV3R5ED/LogLens), then use [SentinelKit](https://github.com/REV3R5ED/SentinelKit) for IOC and authentication-log inspection.
 - **Network troubleshooting:** use [NetScope](https://github.com/REV3R5ED/NetScope) for local visibility, DNS, bounded TCP checks, and route diagnostics.
 - **IT operations / automation:** use [AutoOPS](https://github.com/REV3R5ED/AutoOPS) for read-only health checks, artifact validation, dry-run-safe workflows, and audit-friendly output.
