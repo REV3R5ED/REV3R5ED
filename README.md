@@ -16,7 +16,7 @@ My background spans IT infrastructure, systems administration, network defense, 
 
 If you are reviewing this portfolio for a security, infrastructure, or Python role, start with [**LogLens**](https://github.com/REV3R5ED/LogLens): a deterministic defensive log-analysis CLI with structured parsing, explainable anomaly detection, reproducible JSON/CSV reporting, tests, CI, security documentation, and an end-to-end portfolio demo.
 
-The six projects below form a complementary defensive toolkit rather than unrelated demos: **LogLens** analyzes logs, **SentinelKit** supports IOC and authentication triage, **NetScope** provides bounded network diagnostics, **AutoOPS** handles safe operational checks and automation, **MetaTrace** traces image metadata and forensic characteristics, and **AegisForge** is the commercial DFIR platform unifying them into cases, timelines, and reports.
+The eight projects below form a complementary defensive toolkit rather than unrelated demos: **LogLens** analyzes logs, **SentinelKit** supports IOC and authentication triage, **NetScope** provides bounded network diagnostics, **AutoOPS** handles safe operational checks and automation, **MetaTrace** traces image metadata and forensic characteristics, **HuntForge** hunts endpoints and reconstructs attacks, **PhishScope** traces messages and exposes email evidence, and **AegisForge** is the commercial DFIR platform unifying them into cases, timelines, and reports.
 
 ## 🚀 Featured projects
 
@@ -27,9 +27,11 @@ The six projects below form a complementary defensive toolkit rather than unrela
 | [**NetScope**](https://github.com/REV3R5ED/NetScope) | Network visibility and diagnostics | IPv4/IPv6 inspection, DNS, bounded TCP and route diagnostics, automation-friendly health gates |
 | [**AutoOPS**](https://github.com/REV3R5ED/AutoOPS) | Safe IT operations automation | Cross-platform health checks, artifact validation, dry-run safety, workflows and structured audit logging |
 | [**SentinelKit**](https://github.com/REV3R5ED/SentinelKit) | Blue Team and SOC utilities | IOC extraction, IP inspection, file hashing and authentication-log triage |
-| [**MetaTrace**](https://github.com/REV3R5ED/MetaTrace) | Image forensics and metadata analysis | EXIF extraction, file identification, SHA-256 hashing, evidence-first workflow; XMP/IPTC, GPS, and case management on the roadmap |
+| [**HuntForge**](https://github.com/REV3R5ED/HuntForge) | Endpoint threat hunting & Windows forensics | EVTX/Sysmon/PowerShell parsing, prefetch & registry forensics, unified timeline, process lineage, explainable detection rules |
+| [**PhishScope**](https://github.com/REV3R5ED/PhishScope) | Email & phishing forensics | Safe .eml parsing, Received-chain analysis, SPF/DKIM/DMARC authentication, URL/domain analysis — fully offline, observation-first |
+| [**MetaTrace**](https://github.com/REV3R5ED/MetaTrace) | Image forensics and metadata analysis | EXIF/XMP/IPTC extraction, GPS normalization, tamper analysis, batch processing, timeline reports, evidence-first workflow |
 
-Each project is designed around authorized defensive use and includes automated tests, CI workflows, structured output, documentation, and reproducible examples. AegisForge is commercial software with a 1-week free trial; the other four are open source under MIT.
+Each project is designed around authorized defensive use and includes automated tests, CI workflows, structured output, documentation, and reproducible examples. AegisForge is commercial software with a 1-week free trial; the others are open source under MIT.
 
 ## 🧭 Portfolio map
 
@@ -39,6 +41,8 @@ Each project is designed around authorized defensive use and includes automated 
 - **Network troubleshooting:** use [NetScope](https://github.com/REV3R5ED/NetScope) for local visibility, DNS, bounded TCP checks, and route diagnostics.
 - **IT operations / automation:** use [AutoOPS](https://github.com/REV3R5ED/AutoOPS) for read-only health checks, artifact validation, dry-run-safe workflows, and audit-friendly output.
 - **Technical review:** each core repository includes tests, CI, defensive scope documentation, and reviewer-oriented or reproducible examples so behavior can be verified rather than taken on trust.
+- **Endpoint forensics:** [HuntForge](https://github.com/REV3R5ED/HuntForge) parses Windows event logs, prefetch, registry, and scheduled tasks into a unified timeline with process lineage and explainable detections — observations stay separate from verdicts.
+- **Email forensics:** [PhishScope](https://github.com/REV3R5ED/PhishScope) traces messages safely: header and Received-chain analysis, SPF/DKIM/DMARC authentication, URL/domain inventory — fully offline, nothing fetched, nothing resolved.
 
 ## 🛡️ Security and infrastructure focus
 
