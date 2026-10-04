@@ -16,7 +16,7 @@ My background spans IT infrastructure, systems administration, network defense, 
 
 **New here? Start with [BlackEcho](https://github.com/REV3R5ED/BlackEcho)** — an end-to-end DFIR investigation lab that stages a full synthetic breach (phishing → endpoint → network → case) and runs it across all eight of my tools with ground-truth scoring. It is the fastest way to see what the whole ecosystem does together: 100% indicator coverage, 6/6 cross-tool relationships reconstructed.
 
-Prefer clicking to typing? **[AegisBoard](https://github.com/REV3R5ED/AegisBoard)** puts all eight engines behind one professional web UI — 16 live actions with run history. 🌐 **[Try the live demo](https://aegisboard-frontend.vercel.app)** — runs in your browser, no install needed.
+Prefer clicking to typing? **[AegisBoard](https://github.com/REV3R5ED/AegisBoard)** puts all eight engines behind one professional web UI — 16 live actions with run history. 🌐 **[Try the live demo](https://aegisboard-frontend.vercel.app)** — runs in your browser, no install needed (first load may take ~30s while the free backend wakes up).
 
 The eight engines below are the building blocks. Each is a focused, tested, documented Python CLI:
 
