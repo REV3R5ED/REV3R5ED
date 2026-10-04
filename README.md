@@ -14,15 +14,28 @@ My background spans IT infrastructure, systems administration, network defense, 
 
 ## 🔎 Start here
 
-If you are reviewing this portfolio for a security, infrastructure, or Python role, start with [**LogLens**](https://github.com/REV3R5ED/LogLens): a deterministic defensive log-analysis CLI with structured parsing, explainable anomaly detection, reproducible JSON/CSV reporting, tests, CI, security documentation, and an end-to-end portfolio demo.
+**New here? Start with [BlackEcho](https://github.com/REV3R5ED/BlackEcho)** — an end-to-end DFIR investigation lab that stages a full synthetic breach (phishing → endpoint → network → case) and runs it across all eight of my tools with ground-truth scoring. It is the fastest way to see what the whole ecosystem does together: 100% indicator coverage, 6/6 cross-tool relationships reconstructed.
 
-The ten projects below form a complementary defensive toolkit rather than unrelated demos: **LogLens** analyzes logs, **SentinelKit** supports IOC and authentication triage, **NetScope** provides bounded network diagnostics, **AutoOPS** handles safe operational checks and automation, **MetaTrace** traces image metadata and forensic characteristics, **HuntForge** hunts endpoints and reconstructs attacks, **PhishScope** traces messages and exposes email evidence, and **AegisForge** is the commercial DFIR platform unifying them into cases, timelines, and reports. Sitting above the engines, **AegisBoard** is the unified web workbench — every engine behind one professional browser UI, no CLI required — and **BlackEcho** is the end-to-end investigation lab that stages a synthetic breach across all eight tools with ground-truth scoring.
+Prefer clicking to typing? **[AegisBoard](https://github.com/REV3R5ED/AegisBoard)** puts all eight engines behind one professional web UI — 16 live actions with run history, nothing leaves the host.
+
+The eight engines below are the building blocks. Each is a focused, tested, documented Python CLI:
+
+| Engine | One line | Link |
+|---|---|---|
+| PhishScope | Trace the message, expose the evidence — safe `.eml` parsing, SPF/DKIM/DMARC, URL/domain analysis | [repo](https://github.com/REV3R5ED/PhishScope) |
+| MetaTrace | Trace the story behind the image — EXIF/metadata forensics, tamper analysis | [repo](https://github.com/REV3R5ED/MetaTrace) |
+| HuntForge | Hunt the endpoint, reconstruct the attack — EVTX/Sysmon forensics, timeline, detections | [repo](https://github.com/REV3R5ED/HuntForge) |
+| LogLens | Defensive log analysis with explainable anomaly detection | [repo](https://github.com/REV3R5ED/LogLens) |
+| NetScope | Defensive network visibility and diagnostics | [repo](https://github.com/REV3R5ED/NetScope) |
+| SentinelKit | Blue-team triage: IOC extraction, IP inspection, auth-log analysis | [repo](https://github.com/REV3R5ED/SentinelKit) |
+| AegisForge | The DFIR platform unifying it all — cases, timelines, correlation, reports (open source, MIT) | [repo](https://github.com/REV3R5ED/AegisForge) |
+| AutoOPS | Safe, observable automation for IT operations | [repo](https://github.com/REV3R5ED/AutoOPS) |
 
 ## 🚀 Featured projects
 
 | Project | Focus | Highlights |
 |---|---|---|
-| [**AegisForge**](https://github.com/REV3R5ED/AegisForge) | DFIR platform (commercial, 1-week free trial) | Modular incident-response platform: network discovery, forensics, log analysis, PCAP, threat intel, correlation, case management |
+| [**AegisForge**](https://github.com/REV3R5ED/AegisForge) | DFIR platform (open source, MIT) | Modular incident-response platform: network discovery, forensics, log analysis, PCAP, threat intel, correlation, case management |
 | [**LogLens**](https://github.com/REV3R5ED/LogLens) | Defensive log analysis | JSON, text, RFC 5424 and OpenTelemetry parsing; explainable anomaly rules; JSON/CSV reporting |
 | [**NetScope**](https://github.com/REV3R5ED/NetScope) | Network visibility and diagnostics | IPv4/IPv6 inspection, DNS, bounded TCP and route diagnostics, automation-friendly health gates |
 | [**AutoOPS**](https://github.com/REV3R5ED/AutoOPS) | Safe IT operations automation | Cross-platform health checks, artifact validation, dry-run safety, workflows and structured audit logging |
@@ -33,12 +46,12 @@ The ten projects below form a complementary defensive toolkit rather than unrela
 | [**AegisBoard**](https://github.com/REV3R5ED/AegisBoard) | Unified web workbench for the 8 engines | Point-and-click browser UI over every engine: 16 live actions, run history, dark SOC design — a technician picks a tool and runs it, no CLI required |
 | [**BlackEcho**](https://github.com/REV3R5ED/BlackEcho) | End-to-end DFIR investigation lab | Stages a full synthetic breach (phishing → endpoint → network → case) across all eight tools with ground-truth scoring — stage the breach, prove the defense |
 
-Each project is designed around authorized defensive use and includes automated tests, CI workflows, structured output, documentation, and reproducible examples. AegisForge is commercial software with a 1-week free trial; the eight engines are open source under MIT.
+Each project is designed around authorized defensive use and includes automated tests, CI workflows, structured output, documentation, and reproducible examples. All ten projects are open source under MIT.
 
 ## 🧭 Portfolio map
 
 - **Image forensics:** [MetaTrace](https://github.com/REV3R5ED/MetaTrace) extracts and normalizes EXIF/metadata, hashes evidence, and keeps observation separate from interpretation.
-- **DFIR platform:** [AegisForge](https://github.com/REV3R5ED/AegisForge) unifies network, forensic, log, and threat-intel evidence into cases, timelines, and reports (commercial, 1-week free trial).
+- **DFIR platform:** [AegisForge](https://github.com/REV3R5ED/AegisForge) unifies network, forensic, log, and threat-intel evidence into cases, timelines, and reports (open source, MIT).
 - **SOC / incident triage:** start with [LogLens](https://github.com/REV3R5ED/LogLens), then use [SentinelKit](https://github.com/REV3R5ED/SentinelKit) for IOC and authentication-log inspection.
 - **Network troubleshooting:** use [NetScope](https://github.com/REV3R5ED/NetScope) for local visibility, DNS, bounded TCP checks, and route diagnostics.
 - **IT operations / automation:** use [AutoOPS](https://github.com/REV3R5ED/AutoOPS) for read-only health checks, artifact validation, dry-run-safe workflows, and audit-friendly output.
