@@ -109,6 +109,10 @@ I'm interested in collaborating on:
 - GitHub: [@REV3R5ED](https://github.com/REV3R5ED)
 - Verified credentials: [Credly — Pouya Shini Karim](https://www.credly.com/users/sheini)
 
+## 🙏 Acknowledgments
+
+The work in this portfolio stands on what I learned from the people who believed in me early on. I owe a deep debt of gratitude to **Shahab Ahmadi** and **Henrik Hamparsoomian** — the two managers who invested in my growth, trusted me with real responsibility, and set the professional standard I still measure myself against in IT and security.
+
 ---
 
 > Build tools that solve real problems. Make the results explainable. Test everything.
