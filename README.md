@@ -16,7 +16,7 @@ My background spans IT infrastructure, systems administration, network defense, 
 
 **New here? Start with [BlackEcho](https://github.com/REV3R5ED/BlackEcho)** — an end-to-end DFIR investigation lab that stages a full synthetic breach (phishing → endpoint → network → case) and runs it across all eight of my tools with ground-truth scoring. It is the fastest way to see what the whole ecosystem does together: 100% indicator coverage, 6/6 cross-tool relationships reconstructed.
 
-Prefer clicking to typing? **[AegisBoard](https://github.com/REV3R5ED/AegisBoard)** puts all eight engines behind one professional web UI — 16 live actions with run history, nothing leaves the host.
+Prefer clicking to typing? **[AegisBoard](https://github.com/REV3R5ED/AegisBoard)** puts all eight engines behind one professional web UI — 16 live actions with run history. 🌐 **[Try the live demo](https://aegisboard-frontend.vercel.app)** — runs in your browser, no install needed.
 
 The eight engines below are the building blocks. Each is a focused, tested, documented Python CLI:
 
@@ -43,7 +43,7 @@ The eight engines below are the building blocks. Each is a focused, tested, docu
 | [**HuntForge**](https://github.com/REV3R5ED/HuntForge) | Endpoint threat hunting & Windows forensics | EVTX/Sysmon/PowerShell parsing, prefetch & registry forensics, unified timeline, process lineage, explainable detection rules |
 | [**PhishScope**](https://github.com/REV3R5ED/PhishScope) | Email & phishing forensics | Safe .eml parsing, Received-chain analysis, SPF/DKIM/DMARC authentication, URL/domain analysis — fully offline, observation-first |
 | [**MetaTrace**](https://github.com/REV3R5ED/MetaTrace) | Image forensics and metadata analysis | EXIF/XMP/IPTC extraction, GPS normalization, tamper analysis, batch processing, timeline reports, evidence-first workflow |
-| [**AegisBoard**](https://github.com/REV3R5ED/AegisBoard) | Unified web workbench for the 8 engines | Point-and-click browser UI over every engine: 16 live actions, run history, dark SOC design — a technician picks a tool and runs it, no CLI required |
+| [**AegisBoard**](https://github.com/REV3R5ED/AegisBoard) | Unified web workbench for the 8 engines | Point-and-click browser UI over every engine: 16 live actions, run history, dark SOC design — 🌐 [live demo](https://aegisboard-frontend.vercel.app), no install needed |
 | [**BlackEcho**](https://github.com/REV3R5ED/BlackEcho) | End-to-end DFIR investigation lab | Stages a full synthetic breach (phishing → endpoint → network → case) across all eight tools with ground-truth scoring — stage the breach, prove the defense |
 
 Each project is designed around authorized defensive use and includes automated tests, CI workflows, structured output, documentation, and reproducible examples. All ten projects are open source under MIT.
@@ -58,7 +58,7 @@ Each project is designed around authorized defensive use and includes automated 
 - **Technical review:** each core repository includes tests, CI, defensive scope documentation, and reviewer-oriented or reproducible examples so behavior can be verified rather than taken on trust.
 - **Endpoint forensics:** [HuntForge](https://github.com/REV3R5ED/HuntForge) parses Windows event logs, prefetch, registry, and scheduled tasks into a unified timeline with process lineage and explainable detections — observations stay separate from verdicts.
 - **Email forensics:** [PhishScope](https://github.com/REV3R5ED/PhishScope) traces messages safely: header and Received-chain analysis, SPF/DKIM/DMARC authentication, URL/domain inventory — fully offline, nothing fetched, nothing resolved.
-- **Unified web access:** [AegisBoard](https://github.com/REV3R5ED/AegisBoard) puts all eight engines behind one professional browser UI — 16 live actions with run history. If you'd rather click than type, start here.
+- **Unified web access:** [AegisBoard](https://github.com/REV3R5ED/AegisBoard) puts all eight engines behind one professional browser UI — 16 live actions with run history. If you'd rather click than type, start here — 🌐 [live demo](https://aegisboard-frontend.vercel.app).
 - **Investigation lab:** [BlackEcho](https://github.com/REV3R5ED/BlackEcho) stages a complete synthetic intrusion (phishing → Office/PowerShell execution → persistence → network activity) and runs it across all eight tools with ground-truth scoring: 100% indicator coverage, 6/6 cross-tool relationships reconstructed.
 
 ## 🛡️ Security and infrastructure focus
