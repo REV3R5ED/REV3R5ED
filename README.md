@@ -111,7 +111,7 @@ I'm interested in collaborating on:
 
 ## 🙏 Acknowledgments
 
-The work in this portfolio stands on what I learned from the people who believed in me early on. I owe a deep debt of gratitude to **Shahab Ahmadi** and **Henrik Hamparsoomian** — the two managers who invested in my growth, trusted me with real responsibility, and set the professional standard I still measure myself against in IT and security.
+The work in this portfolio stands on what I learned from the people who believed in me early on. I owe a deep debt of gratitude to [**Shahab Ahmadi**](https://www.linkedin.com/in/shahab-ahmadi-9a46a842) and [**Henrik Hambarsoomian**](https://www.linkedin.com/in/henrik-hambarsoomian) — the two managers who invested in my growth, trusted me with real responsibility, and set the professional standard I still measure myself against in IT and security.
 
 ---
 
