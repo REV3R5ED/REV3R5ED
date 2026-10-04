@@ -16,7 +16,7 @@ My background spans IT infrastructure, systems administration, network defense, 
 
 If you are reviewing this portfolio for a security, infrastructure, or Python role, start with [**LogLens**](https://github.com/REV3R5ED/LogLens): a deterministic defensive log-analysis CLI with structured parsing, explainable anomaly detection, reproducible JSON/CSV reporting, tests, CI, security documentation, and an end-to-end portfolio demo.
 
-The eight projects below form a complementary defensive toolkit rather than unrelated demos: **LogLens** analyzes logs, **SentinelKit** supports IOC and authentication triage, **NetScope** provides bounded network diagnostics, **AutoOPS** handles safe operational checks and automation, **MetaTrace** traces image metadata and forensic characteristics, **HuntForge** hunts endpoints and reconstructs attacks, **PhishScope** traces messages and exposes email evidence, and **AegisForge** is the commercial DFIR platform unifying them into cases, timelines, and reports.
+The ten projects below form a complementary defensive toolkit rather than unrelated demos: **LogLens** analyzes logs, **SentinelKit** supports IOC and authentication triage, **NetScope** provides bounded network diagnostics, **AutoOPS** handles safe operational checks and automation, **MetaTrace** traces image metadata and forensic characteristics, **HuntForge** hunts endpoints and reconstructs attacks, **PhishScope** traces messages and exposes email evidence, and **AegisForge** is the commercial DFIR platform unifying them into cases, timelines, and reports. Sitting above the engines, **AegisBoard** is the unified web workbench — every engine behind one professional browser UI, no CLI required — and **BlackEcho** is the end-to-end investigation lab that stages a synthetic breach across all eight tools with ground-truth scoring.
 
 ## 🚀 Featured projects
 
@@ -30,8 +30,10 @@ The eight projects below form a complementary defensive toolkit rather than unre
 | [**HuntForge**](https://github.com/REV3R5ED/HuntForge) | Endpoint threat hunting & Windows forensics | EVTX/Sysmon/PowerShell parsing, prefetch & registry forensics, unified timeline, process lineage, explainable detection rules |
 | [**PhishScope**](https://github.com/REV3R5ED/PhishScope) | Email & phishing forensics | Safe .eml parsing, Received-chain analysis, SPF/DKIM/DMARC authentication, URL/domain analysis — fully offline, observation-first |
 | [**MetaTrace**](https://github.com/REV3R5ED/MetaTrace) | Image forensics and metadata analysis | EXIF/XMP/IPTC extraction, GPS normalization, tamper analysis, batch processing, timeline reports, evidence-first workflow |
+| [**AegisBoard**](https://github.com/REV3R5ED/AegisBoard) | Unified web workbench for the 8 engines | Point-and-click browser UI over every engine: 16 live actions, run history, dark SOC design — a technician picks a tool and runs it, no CLI required |
+| [**BlackEcho**](https://github.com/REV3R5ED/BlackEcho) | End-to-end DFIR investigation lab | Stages a full synthetic breach (phishing → endpoint → network → case) across all eight tools with ground-truth scoring — stage the breach, prove the defense |
 
-Each project is designed around authorized defensive use and includes automated tests, CI workflows, structured output, documentation, and reproducible examples. AegisForge is commercial software with a 1-week free trial; the others are open source under MIT.
+Each project is designed around authorized defensive use and includes automated tests, CI workflows, structured output, documentation, and reproducible examples. AegisForge is commercial software with a 1-week free trial; the eight engines are open source under MIT.
 
 ## 🧭 Portfolio map
 
@@ -43,6 +45,8 @@ Each project is designed around authorized defensive use and includes automated 
 - **Technical review:** each core repository includes tests, CI, defensive scope documentation, and reviewer-oriented or reproducible examples so behavior can be verified rather than taken on trust.
 - **Endpoint forensics:** [HuntForge](https://github.com/REV3R5ED/HuntForge) parses Windows event logs, prefetch, registry, and scheduled tasks into a unified timeline with process lineage and explainable detections — observations stay separate from verdicts.
 - **Email forensics:** [PhishScope](https://github.com/REV3R5ED/PhishScope) traces messages safely: header and Received-chain analysis, SPF/DKIM/DMARC authentication, URL/domain inventory — fully offline, nothing fetched, nothing resolved.
+- **Unified web access:** [AegisBoard](https://github.com/REV3R5ED/AegisBoard) puts all eight engines behind one professional browser UI — 16 live actions with run history. If you'd rather click than type, start here.
+- **Investigation lab:** [BlackEcho](https://github.com/REV3R5ED/BlackEcho) stages a complete synthetic intrusion (phishing → Office/PowerShell execution → persistence → network activity) and runs it across all eight tools with ground-truth scoring: 100% indicator coverage, 6/6 cross-tool relationships reconstructed.
 
 ## 🛡️ Security and infrastructure focus
 
