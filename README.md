@@ -45,6 +45,8 @@ Also in development: **NetSentinel**, our commercial network monitoring system â
 - LinkedIn (personal): https://www.linkedin.com/in/pouya-shini-karim-878930315
 - LinkedIn (White Gravity): https://www.linkedin.com/company/white-gravity/
 - Instagram: https://www.instagram.com/whitegravity.ca
+- Credly: https://www.credly.com/users/sheini
+- ORCID: https://orcid.org/0009-0006-2691-171X
 
 ---
 
